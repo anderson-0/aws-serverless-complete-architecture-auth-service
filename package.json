@@ -2,7 +2,7 @@
   "name": "aws-serverless-complete-architecture-auth-service",
   "version": "1.0.0",
   "author": "Anderson <anderson.consultant.it@outlook.com>",
-  "description": "Demonstration of how to AWS Serverless API gateway endpoints with Auth0",
+  "description": "AWS Serverless Framework Architecture - Authentication Service with API Gateways and Auth0 service",
   "license": "MIT",
   "dependencies": {
     "jsonwebtoken": "^8.5.1"
