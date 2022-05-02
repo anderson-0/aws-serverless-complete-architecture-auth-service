@@ -1,6 +1,5 @@
 
-service:
-  name: aws-serverless-complete-architecture-auth-service
+service: aws-serverless-complete-architecture-auth-service
 
 plugins:
   - serverless-bundle
@@ -9,6 +8,7 @@ provider:
   name: aws
   runtime: nodejs14.x
   memorySize: 128
+  region: 'us-east-1'
   environment:
     AUTH0_PUBLIC_KEY: ${file(secret.pem)}
 
