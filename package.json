@@ -1,0 +1,13 @@
+{
+  "name": "aws-serverless-complete-architecture-auth-service",
+  "version": "1.0.0",
+  "author": "Anderson <anderson.consultant.it@outlook.com>",
+  "description": "Demonstration of how to AWS Serverless API gateway endpoints with Auth0",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "serverless-bundle": "^1.9.1"
+  }
+}
